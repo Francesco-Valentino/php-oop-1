@@ -1,5 +1,19 @@
 <?php 
+class Movie {
+    public $title;
+    public $genre;
+    public $language;
+    public $year;
+    public $director;
 
+    function __construct($_title, $_genre, $_language, $_year, $_director){
+        $this->title = $_title;
+        $this->genre = $_genre;
+        $this->language = $_language;
+        $this->year = $_year;
+        $this->director = $_director;
+    }
+}
 ?>
 
 <!DOCTYPE html>
