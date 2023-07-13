@@ -40,6 +40,8 @@ $vForVendetta = new Movie("V for Vendetta", "Action", "English", 2005, "James Mc
 $shutterIsland = new Movie("Shutter Island", "Thriller", "English", 2010, "Martin Scorsese");
 $prettyWoman= new Movie("Pretty Woman", "Romance", "English", 1990, "Garry Marshall");
 $knivesOut = new Movie("Knives Out", "Detective Movie", "English", 2019, "Rian Johnson");
+
+$moviesList = [$theEmperorsNewGroove, $vForVendetta, $shutterIsland, $prettyWoman, $knivesOut];
 ?>
 
 <!DOCTYPE html>
