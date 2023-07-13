@@ -13,9 +13,17 @@ class Movie {
         $this->year = $_year;
         $this->director = $_director;
     }
+
+    public function printMovie(){
+        echo $this->title;
+        echo $this->genre;
+        echo $this->language;
+        echo $this->year;
+        echo $this->director;
+    }
 };
 
-$theEmperorsNewGroove = new Movie("The Emperor's New Groove", "Comedy", "English", 2001, "Mark Dindal")
+$theEmperorsNewGroove = new Movie("The Emperor's New Groove", "Comedy", "English", 2001, "Mark Dindal");
 ?>
 
 <!DOCTYPE html>
@@ -29,7 +37,7 @@ $theEmperorsNewGroove = new Movie("The Emperor's New Groove", "Comedy", "English
     <body>
         <h1>
             <?php 
-                var_dump($theEmperorsNewGroove);
+                $theEmperorsNewGroove->printMovie();
             ?>
         </h1>
     </body>
