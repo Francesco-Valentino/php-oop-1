@@ -13,7 +13,9 @@ class Movie {
         $this->year = $_year;
         $this->director = $_director;
     }
-}
+};
+
+$theEmperorsNewGroove = new Movie("The Emperor's New Groove", "Comedy", "English", 2001, "Mark Dindal")
 ?>
 
 <!DOCTYPE html>
@@ -25,6 +27,10 @@ class Movie {
     </head>
 
     <body>
-        
+        <h1>
+            <?php 
+                var_dump($theEmperorsNewGroove);
+            ?>
+        </h1>
     </body>
 </html>
